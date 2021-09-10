@@ -1,0 +1,109 @@
+<html>
+    <head>
+    
+
+            <meta charset="UTF-8">
+            <title>CREDIT CARD DEFAULT PREDICTION</title>
+             <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <style>
+       
+        input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            }
+        div {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            }
+
+        button[type=submit]:hover {
+            background-color: #45a049;
+            }
+        label {
+            float: left
+        }
+        
+        
+          
+        
+
+    </style>
+            
+
+    </head>
+
+    <body>
+        <div class="login">
+            <h2> Will the payment get defaulted next month? </h2>
+
+            <form action="{{ url_for('predict')}}" method="post" class="form-inline">
+                <label for  = 'LIMIT_BAL'>LIMIT BALANCE</label>
+                <input type="text" id = 'LIMIT_BAL' name = 'LIMITBALANCE' placeholder="Enter Limit Balance...", required="required">
+                
+                <label for  = 'SEX' >SEX</label>
+                <select id="SEX" name="country" required="required" >
+                    <option value= '1' >MALE</option>
+                    <option value= '2'>FEMALE</option>
+                </select>
+                
+                <label for  = 'PAY_0'>REPAYMENT STATUS IN SEPTEMBER</label>
+                <input type="text" id = 'PAY_0' name = 'PAY0' placeholder="-1:pay duly, 1:payment delay for 1 month and so on ...", required="required">
+                
+                <label for  = 'PAY_2'>REPAYMENT STATUS IN AUGUST</label>
+                <input type="text" id = 'PAY_2' name = 'PAY2' placeholder="-1:pay duly, 1:payment delay for 1 month and so on ..." required="required">
+                
+                <label for  = 'PAY_3'>REPAYMENT STATUS IN JULY</label>
+                <input type="text" id = 'PAY_3' name = 'PAY3' placeholder="-1:pay duly, 1:payment delay for 1 month and so on ..." required="required">
+                
+                <label for  = 'PAY_4'>REPAYMENT STATUS IN JUNE</label>
+                <input type="text" id = 'PAY_4' name = 'PAY4' placeholder="-1:pay duly, 1:payment delay for 1 month and so on ..." required="required">
+
+                <label for  = 'PAY_5'>REPAYMENT STATUS IN MAY</label>
+                <input type="text" id = 'PAY_5' name = 'PAY5' placeholder="-1:pay duly, 1:payment delay for 1 month and so on ..." required="required">
+
+                <label for  = 'PAY_6'>REPAYMENT STATUS IN APRIL</label>
+                <input type="text" id = 'PAY_6' name = 'PAY6' placeholder="-1:pay duly, 1:payment delay for 1 month and so on ..." required="required">
+
+                <label for  = 'BILL_AMT1'>AMOUNT OF BILL STATEMENT IN SEPTEMBER</label>
+                <input type="text" id = 'BILL_AMT1' name = 'BILLAMT1' placeholder=" NT Dollars" required="required">
+
+                <label for  = 'PAY_AMT1'>AMOUNT OF PREVIOUS PAYMENT IN SEPTEMBER</label>
+                <input type="text" id = 'PAY_AMT1' name = 'PAYAMT1' placeholder=" NT Dollars" required="required">
+
+                <label for  = 'PAY_AMT2'>AMOUNT OF PREVIOUS PAYMENT IN AUGUST</label>
+                <input type="text" id = 'PAY_AMT2' name = 'PAYAMT2' placeholder=" NT Dollars" required="required">                
+                
+                <label for  = 'PAY_AMT3'>AMOUNT OF PREVIOUS PAYMENT IN JULY</label>
+                <input type="text" id = 'PAY_AMT3' name = 'PAY_AMT3' placeholder=" NT Dollars" required="required">
+                
+                <label for  = 'PAY_AMT4'>AMOUNT OF PREVIOUS PAYMENT IN JUNE</label>
+                <input type="text" id = 'PAY_AMT4' name = 'PAY_AMT4' placeholder=" NT Dollars" required="required">
+                
+                <label for  = 'PAY_AMT5'>AMOUNT OF PREVIOUS PAYMENT IN MAY</label>
+                <input type="text" id = 'PAY_AMT5' name = 'PAY_AMT5' placeholder=" NT Dollars" required="required">
+                
+                <label for  = 'PAY_AMT6'>AMOUNT OF PREVIOUS PAYMENT IN APRIL</label>
+                <input type="text" id = 'PAY_AMT6' name = 'PAY_AMT6' placeholder=" NT Dollars" required="required">
+
+                <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+
+            </form>
+
+            <br>
+            <br>
+
+          
+
+        </div>
+
+        
+
+    </body>
+
+</html>
