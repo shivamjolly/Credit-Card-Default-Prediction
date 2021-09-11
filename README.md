@@ -18,6 +18,9 @@ I have built this whole project using Python version 3.8.10. So, My advice is to
 
 This project is deployed on Heroku. First, you need to create your account on Heroku, then connect to yout Github Account and click on deploy manually.
 
+[<img width = '500px' src = 'https://camo.githubusercontent.com/065f065d12a6ba6b2cfcff767aaafd438a7ed5ae615e3ac39051c022cebaa698/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f6865726f6b752d312e737667' />](https://www.heroku.com/home)
+
+
 ## Directory Tree
 
 ```bash
@@ -42,4 +45,10 @@ This project is deployed on Heroku. First, you need to create your account on He
 
 <img src = 'https://camo.githubusercontent.com/3cdf9577401a2c7dceac655bbd37fb2f3ee273a457bf1f2169c602fb80ca56f8/68747470733a2f2f666f7274686562616467652e636f6d2f696d616765732f6261646765732f6d6164652d776974682d707974686f6e2e737667'>
 
-[![Flask](https://flask.palletsprojects.com/en/2.0.x/_images/flask-logo.png)](https://flask.palletsprojects.com/en/2.0.x/) 
+[<img alighn = 'left' width = '200px' src = 'https://flask.palletsprojects.com/en/2.0.x/_images/flask-logo.png' />](https://flask.palletsprojects.com/en/2.0.x/)
+[<img alighn = 'left' width = '300px' src = 'https://gunicorn.org/images/logo.jpg' />](https://gunicorn.org/)
+[<img alighn = 'left' width = '300px' src = 'https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png' />](https://scikit-learn.org/stable/)
+
+
+## About Pickle Files
+
