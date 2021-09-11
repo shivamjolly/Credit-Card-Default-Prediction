@@ -5,7 +5,7 @@ This project predicts whether there will be a default in payments or not for the
 ## Demo
 Link: https://creditdefaultprediction-api.herokuapp.com/
 
-<img src="Credit_default.gif" width="55%" height="50%"/>
+<img src="Credit_default.gif" width="75%" height="50%"/>
 
 ## Installation
 
@@ -51,4 +51,16 @@ This project is deployed on Heroku. First, you need to create your account on He
 
 
 ## About Pickle Files
+
+Model3.pkl: As I have implemented many models in my code, as you will see in jupyter notebook, I have selected model3 the best to perform.
+
+SC.pkl: This pickle file is for scaling, as I have implemented Standard Scalar on my dataset. The purpose of this pickle file is to scale the input taken from the form to that based on training set parameters.
+
+## Future Scope
+- Try differenet models and increase the performance of the model.
+- Front - end can be better.
+- Optimize the codes.
+
+
+
 
