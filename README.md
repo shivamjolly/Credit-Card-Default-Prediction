@@ -2,6 +2,16 @@
 
 This project predicts whether there will be a default in payments or not for the next month based on parameters.
 
+## Table of contents
+
+- [Demo](https://github.com/shivamjolly/Credit-Card-Default-Prediction#demo)
+- [Installation](https://github.com/shivamjolly/Credit-Card-Default-Prediction#installation)
+- [Deployement](https://github.com/shivamjolly/Credit-Card-Default-Prediction#deployement)
+- [Directory Tree](https://github.com/shivamjolly/Credit-Card-Default-Prediction#directory-tree)
+- [Technologies Used](https://github.com/shivamjolly/Credit-Card-Default-Prediction#technologies-used)
+- [About Pickle files](https://github.com/shivamjolly/Credit-Card-Default-Prediction#about-pickle-files)
+- [Future Scope](https://github.com/shivamjolly/Credit-Card-Default-Prediction#future-scope)
+
 ## Demo
 Link: https://creditdefaultprediction-api.herokuapp.com/
 
